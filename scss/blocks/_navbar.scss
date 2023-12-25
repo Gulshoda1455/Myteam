@@ -1,0 +1,22 @@
+
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+}
+.navbar-item + .navbar-item  {
+    margin-left: 40px;
+}
+.navbar-link {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+@media only screen and (max-width:562px){
+.navbar-list{
+    display: none;
+}
+
+}
